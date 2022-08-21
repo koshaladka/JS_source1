@@ -31,6 +31,7 @@ const modals = () => {
         });
     }
 
+    //показ моадльного окна спустя вермя
     function showModalByTime(selector, time) {
         setTimeout(function() {
             document.querySelector(selector).style.display = 'block';

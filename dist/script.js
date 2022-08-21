@@ -14893,7 +14893,8 @@ var modals = function modals() {
         document.body.style.overflow = ""; // document.body.classList.remove('modal-open');
       }
     });
-  }
+  } //показ моадльного окна спустя вермя
+
 
   function showModalByTime(selector, time) {
     setTimeout(function () {
