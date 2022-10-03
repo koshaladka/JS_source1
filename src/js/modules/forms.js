@@ -40,6 +40,7 @@ const forms = () => {
             item.appendChild(statusMessage);
 
             const formData = new FormData(item);
+            console.log(formData);
 
             postData('assets/server.php', formData)
                 .then(res => {
