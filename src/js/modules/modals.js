@@ -32,6 +32,7 @@ const modals = () => {
             });
             modal.style.display = "none";
             document.body.style.overflow = "";
+            document.body.style.marginRight = '0px';
             // document.body.classList.remove('modal-open');
         });
 
